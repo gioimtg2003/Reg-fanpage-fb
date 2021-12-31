@@ -59,6 +59,6 @@ for i in range(20):
     time.sleep(random.randint(5,10))
     driver.refresh()
     print("đã xong page "+ str(i))
-    deplay = int(random.randint(50,90))
+    deplay = int(random.randint(60,120))
     print(f"Thời gian nghỉ:{deplay}s")
     time.sleep(deplay)
